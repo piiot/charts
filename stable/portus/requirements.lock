@@ -1,0 +1,9 @@
+dependencies:
+- name: mariadb
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 5.11.1
+- name: docker-registry
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 1.7.0
+digest: sha256:3ce0ae034a81775d53a40ed9da2b69348b66029386b2b1452ff1c4db75b1ee1f
+generated: 2019-04-09T07:55:51.338887347Z

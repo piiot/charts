@@ -1,0 +1,8 @@
+dependencies:
+  - name: mariadb 
+    version: 5.11.x 
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    condition: mariadb.enabled
+  - name: docker-registry
+    version: 1.7.x
+    repository: https://kubernetes-charts.storage.googleapis.com/
